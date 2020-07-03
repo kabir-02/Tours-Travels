@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+    <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width,initial-scale=1.8">
+        <title>
+            <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> 
+       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        </title>
+        <style>
+           .mainmenu1
+                 {
+                    height: 35px;
+                    background-color:black;
+                    background-repeat: no-repeat;
+                 }
+                  .mainmenu1 ul
+                 {
+                    list-style: none;
+                    display: inline-flex;
+                 }
+                  .mainmenu1 ul li
+                 {
+                   width:100 px;
+                   font-size: 18px;
+                   margin-bottom: 2px;
+                     float:right;
+                 }
+                 .mainmenu1 ul li
+                 a{
+                   text-decoration: none;
+                   color:white;
+                 }
+                 .mainmenu
+                 {
+                    background-color:darkred;
+                    background-repeat: no-repeat;
+                     line-height: 0px;
+                 }
+                   .mainmenu ul  li a:hover {
+                       color:yellow;
+                    }
+                  .mainmenu ul
+                 {
+                    list-style: none;
+                    display: inline-flex;
+                 }
+                  .mainmenu ul li
+                 {
+                   width:130 px;
+                     height: 0px;
+                   padding:10px;
+                   margin: 10px;
+                 }
+                 .mainmenu ul li
+                 a{
+                   text-decoration: none;
+                   color:white;
+                 } 
+          .mainmenu2 img
+            {
+                display:visible;
+            }
+            .hye
+            {
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                 transform: translate(-50%, -50%);
+            }
+            .mainmenu2
+            {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            .blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: white;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: white;    }
+}
+             .image {
+        overflow: hidden;
+        transition-duration: 3s;
+        transition-property: transform;
+    }
+    .image:hover {
+        transform: rotate(360deg);
+    }
+            body{
+                background-size: cover;
+                background-repeat: no-repeat;
+                box-sizing: border-box;
+                margin: 0px;
+            }
+         
+            .fa{
+                margin-right: 08px;
+            }
+             #lc{
+            	background-color: #585858;
+            	height: 45px; 
+            	color: white;
+                 width: 100%;
+                 position: absolute;
+                 top:520px;
+            }
+            
+            select {
+                width: 400px;
+    border: 3px solid white;
+    background-color: transparent;
+                border-radius: 10px;
+}
+            .container {
+                
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  top:340px;
+  left: 100px;
+    font-size: 40px;
+}
+            .photo1{
+                 position: absolute;
+                top:710px;
+                left:10px;
+                margin-left: 60px;
+                margin-bottom: 10px;
+                height: 133px;
+                width: 186px;
+            
+            }
+            .photo2{
+                position: absolute;
+                top:710px;
+                left:260px;
+                margin-bottom: 10px;
+                margin-left: 60px;
+                height: 133px;
+                width: 186px;
+            }
+            .photo3{
+              position: absolute;
+                top:710px;
+                left:525px;
+                margin-bottom: 10px;
+                margin-left: 60px;
+                height: 133px;
+                width: 186px;
+}
+            .photo4{
+               position: absolute;
+                top:902px;
+                left:10px;
+                margin-left: 60px;
+                margin-bottom: 10px;
+                height: 133px;
+                width: 186px;
+            
+            }
+            .photo5{
+                position: absolute;
+                top:902px;
+                left:260px;
+                margin-bottom: 10px;
+                margin-left: 60px;
+                height: 133px;
+                width: 186px;
+            }
+            .photo6{
+              position: absolute;
+                top:902px;
+                left:525px;
+                margin-bottom: 10px;
+                margin-left: 60px;
+                height: 133px;
+                width: 186px;
+}
+              .photo7{
+               position: absolute;
+                top:1096px;
+                left:10px;
+                margin-left: 60px;
+                margin-bottom: 10px;
+                height: 133px;
+                width: 186px;
+            
+            }
+            .photo8{
+                position: absolute;
+                top:1096px;
+                left:260px;
+                margin-bottom: 10px;
+                margin-left: 60px;
+                height: 133px;
+                width: 186px;
+            }
+            .photo9{
+              position: absolute;
+                top:1096px;
+                left:525px;
+                margin-bottom: 10px;
+                margin-left: 60px;
+                height: 133px;
+                width: 186px;
+}
+            .form{ position: absolute;
+	  				top:688px;
+	  				left: 850px;
+ 						 background-color: grey;
+ 						 width: 350px;
+						 height:380px;
+						 padding: 20px;
+						 margin: 20px;
+}
+   				#myemail{
+   						 width: 300px;
+						 height:30px;
+						 border: none;
+   				}
+   				#mybutton{
+   					     width: 300px;
+						 height:35px;
+						 background-color: darkred;
+						 border-radius: 5px;
+						 border: none;
+						 color: white;
+   				}
+            
+            .centered select option {
+                color: orangered;
+            }
+        </style>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+        
+  <div class="mainmenu1">
+    <ul >
+
+    <li style="position: absolute;top: 5px;left:30px;font-family: sans-serif;"><a href="" ><i class="fa fa-mobile blinking " aria-hidden="true"></i> &nbsp;&nbsp;+91 11 23415601 </a></li>
+    &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp    &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp    &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp
+    <li style="position: absolute;top: 5px;right:300px;font-family: sans-serif;"><a href=""><i class="fa fa-envelope blinking" aria-hidden="true"></i>&nbsp;glatourandtravels@gmail.com</a></li>
+    </div>
+    <div class="mainmenu">
+    <p style="font-family: cursive;font-size: 20px;position: absolute; top: 25px;left:10px;color: white;"><img  src="logo1.png"   style="float: left; width: 80px;height: 50px;"> </p>
+
+    <p class="image" style="font-family:cursive;font-size: 25px;position: absolute; top:10px;left:130px;color: yellow;line-height: normal;">GLA Tours <br> &amp Travels</p>
+
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <ul >
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <li style="font-size: 18px;margin-top: 5px;"><a href="index.html#A"><i class="fa fa-handshake-o " aria-hidden="true"></i>&nbsp;Tours in India</a></li>
+
+    <li style="font-size: 18px;margin-top: 5px;"><a href="index.html#B"><i class="fa fa-plane" aria-hidden="true"></i>&nbsp;International Tours</a></li>
+
+    <li style="font-size: 18px;margin-top: 5px;"><a href="index.html#C"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Destinations</a></li>
+
+    <li style="font-size: 18px;margin-top: 5px;"><a href=""><i class="fa fa-car" aria-hidden="true"></i>&nbsp;Transport</a></li>
+
+    <li style="font-size: 18px;margin-top: 5px;"><a href="support.html"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;Support</a></li>
+
+    <li style="font-size: 18px;margin-top: 5px;"><a href="aboutus.html"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;About Us</a></li>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    </ul>
+
+      
+
+        </div>
+
+     
+
+        </div>
+        <div class="container">
+         <img src="bmw.jpg" alt="Luxury cars" style="width:100%;height:450px;">
+            <div class="bottom-left">Luxury Cars</div>
+        </div>
+             <h3 id="lc"><a href="" style="color: #B0B0B0" ><span style="margin-left: 80px;">Home </span> </a> >Luxury Cars</h3><br><br><br><br>
+        <h3 style=" position: absolute; top:620px;left:270px;">Car Rental in Delhi, India </h3><br><br>
+        <h2 style="background-color: gray; height: 1px; width=250px; margin-left: 80px; margin-right: 600px;"></h2>
+        
+            <div class="photo1">
+        <img src="accord.jpg" style=" border: 8px solid grey;">
+            </div>
+         <div class="photo2">
+        <img src="toyota.jpg" style=" border: 8px solid grey;">
+            </div>
+         <div class="photo3">
+        <img src="corolla.jpg"1 style=" border: 8px solid grey;">
+            </div>
+        
+        <pre style="font-size: 16px;position: absolute; ; top:845px;">           Honda Accord(4+1)           Toyota Liva(4+1)            Toyota Corolla Altis</pre>
+        
+         <div class="photo4">
+        <img src="swift.jpg" style=" border: 8px solid grey;">
+            </div>
+         <div class="photo5">
+        <img src="etios.jpg" style=" border: 8px solid grey;">
+            </div>
+         <div class="photo6">
+        <img src="optra.jpg"1 style=" border: 8px solid grey;">
+            </div>
+         <pre style="font-size: 16px;position: absolute; ; top:1040px;">          Swift dzire(4+1)             Toyota Etios                   chevrolet Optra</pre>
+        <div class="photo7">
+        <img src="bmw3.jpg" style=" border: 8px solid grey;">
+            </div>
+         <div class="photo8">
+        <img src="sclass.jpg" style=" border: 8px solid grey;">
+            </div>
+         <div class="photo9">
+        <img src="eclass.jpg"1 style=" border: 8px solid grey;">
+            </div>
+         <pre style="font-size: 16px;position: absolute; ; top:1233px;">          BMW 3(4+1)                Mercedes S-Class(4+1)            Mercedes E-Class</pre>
+         
+        <div class="form">
+	  		
+	  		<br>
+	  	<form>
+	  		<h3 style="position: absolute; top:0px">Enter Name*</h3>
+	  		<input type="text" name="name"  id="myemail"><br><br><br>
+	  		<h3 style="position: absolute; top:65px">Enter Mobile Number*</h3>
+	  		<input type="tel" name="phone" id="myemail"><br><br><br>
+	  		<h3 style="position: absolute; top:125px">Enter Email*</h3>
+	  		<input type="email" name="email" id="myemail"><br><br><br>
+	  		<h3 style="position: absolute; top:200px">Message*</h3>
+	  		<textarea name="message" rows="6" cols="40"></textarea>
+	  	<a href="" target="_blank"><button type="button" id="mybutton">Submit</button></a><br><br>
+	  	</form>
+	  </div>
+        <h3 style="position: absolute; top:655px;left: 870px; background-color: darkred;color: white; height:35px; width:390px;"><center>Want Us To Call Back ?</center></h3>
+        <h2 style="background-color: gray; height: 1px; width=800px; margin-left: 80px; margin-right: 300px; position: absolute; top:600px;"></h2>
+                                 <div style="width: 100%;height:530px;background-color: black; position: absolute;top: 1300px;">
+                <div style="border: 1px; solid black;height: 380px;width: 400px;margin-left: 140px;background-color: black;">
+        <p style="margin-left: 20px;color: white;font-size: 18px;"><br><br><b>Need Help ?</b>
+                    <br><br>
+                    <b>Working Hours:</b>(10:00 AM – 7:00 PM. Monday – Saturday)<br><br><b>Telephone:</b> +91 11 23415601
+                    <br><br><b>Emergency Numbers:</b>  + 91 - 9810100293, 9910049132, 7042150002, 7042160002, 9910048582 <br><br><b>Address:</b> Flat No. 6, Shankar Market, 2nd Floor, Above Shop No.1 Shankar Market, Outer Circle, Opposite M Block, Connaught Place, Delhi, 110001, India.
+                    </p>
+        </div>
+               <div style="height: 380px;width: 400px;margin-left: 640px;margin-top: 60px; background-color:black;">
+                    <p style="margin-left: 20px;line-height: 1.6; color: white;font-size: 18px;margin-top: -430px;"><br><b>Our Services</b><br><br>Tour Photography<br>Premium Hotel Stays<br>First Class Travel Tickets<br>River Rafting<br>ParaGliding<br>Cabs Services<br>Best Packages<br></div>
+                <img src="26305529.jpg" style="position: relative;width: 500px; top: -300px;left: 850px;">
+                <h2 style="text-decoration: underline;width: 600px;text-align: center;position: relative;top: -300px; color: dimgrey;margin-left: 120px;">        ___________________________________________________________________________________________</h2>
+                </div>
+       <div class="center" style="position: absolute;top: 1740px; left:700px">
+            <a class="btn" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="btn" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a class="btn" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="btn" href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+            <a class="btn" href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+             <br>
+             <p style="color: white;font-size: 16px"><i class="fa fa-copyright" aria-hidden="true"></i>
+             2019 GLAToursAndTravels Pvt. Ltd. All Rights Reserved | Powered by GLA University</p>
+             </div>
+  </body>
+</html>
+

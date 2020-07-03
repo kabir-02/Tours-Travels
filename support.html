@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title></title>
+        
+        <style>
+
+            
+             
+            *{
+                padding: 0px;
+                margin: 0px;
+                font-family:sans-serif;
+                font-size:16px;
+            
+            }
+           
+            body
+            {
+                
+                
+                background-size: cover;
+                box-sizing: border-box;
+                 }
+            
+            
+            
+            .mainmenu1
+                 {
+                    background-color:black;
+                    background-repeat: no-repeat;
+                    
+                 }
+                  .mainmenu1 ul
+                 {
+                    list-style: none;
+                    display: inline-flex;
+                 }
+                  .mainmenu1 ul li
+                 {
+                   width:130 px;
+                   padding:5px;
+                   margin: 3px;
+                     float:right;
+                 }
+                 .mainmenu1 ul li
+                 a{
+                   text-decoration: none;
+                   color:white;
+                 }
+            
+                 .mainmenu
+                 {
+                    background-color:darkred;
+                    background-repeat: no-repeat;
+                     line-height: 8px;
+                    
+                   
+                 }
+                   .mainmenu ul  li a:hover {
+                      
+                    
+                       color:yellow;
+                    
+                    }
+            
+                  .mainmenu ul
+                 {
+                    list-style: none;
+                    display: inline-flex;
+                 }
+                  .mainmenu ul li
+                 {
+                   width:130 px;
+                   padding:10px;
+                   margin: 13px;
+                 }
+                 .mainmenu ul li
+                 a{
+                   text-decoration: none;
+                   color:white;
+                 }
+                    
+          .mainmenu2 img
+            {
+                display:visible;
+            }
+            .hye
+            {
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .mainmenu2
+            {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+             .fa-angle-right{
+
+                float:right;
+
+                margin-top: auto;
+
+            }
+
+            * {
+                 box-sizing: border-box;
+                 }
+            
+            .blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: white;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: white;    }
+}
+         
+    #customers td, #customers th {
+  border: 1px solid grey;
+  padding: 8px;
+            }
+             .image {
+         overflow: hidden;
+        transition-duration: 5s;
+                  transition-property: transform;
+       
+    }
+    .image:hover {
+        transform: rotate(360deg);
+    }
+            
+            
+            td,th{
+                color: black;
+            }
+            
+            .box_style_4
+            {
+                width:350px;
+                height:200px;
+                position: absolute;
+                top:900px;
+                right: 100px;
+                border: 1px solid black;
+                background-color: white;
+                
+            }
+             .mainmenu6
+            {
+                width:850px;
+                height:900px;
+                position: absolute;
+                top:1600px;
+                right: 200px;
+                border: 1px solid black;
+                background-color: white;
+                
+            }
+            
+            
+            
+             .mainmenu8
+            {
+                width:850px;
+                height:750px;
+                position: absolute;
+                top:2650px;
+                right: 200px;
+                border: 1px solid black;
+                background-color: white;
+                
+            }
+            .r
+            {
+                position: absolute;
+                top:2550px;
+               
+                
+            }
+            .s
+            {
+                position: absolute;
+                top:3450px;
+               
+                
+                
+            }
+            .mainmenu10
+            {
+                position: absolute;
+                top:3550px;
+                margin-left: 70px;
+            }
+            
+              .mainmenu12
+            {
+                width:850px;
+                height:650px;
+                position: absolute;
+                top:5410px;
+                right: 200px;
+                border: 1px solid black;
+                background-color: white;
+                
+            }
+            .t
+            {
+                position: absolute;
+                top:5300px;
+               
+                
+            }
+            .center
+            {
+                position: absolute;
+                left: 50%;
+                top:6550px;
+                width: 100%;
+                
+                transform: translate(-50%,-50%);
+                text-align: center;
+            }
+            .btn
+            {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                background-color: darkcyan;
+                margin: 10px;
+                border-radius: 30%;
+                box-shadow: 0 5px 15px -5px #679cdb;
+                overflow: hidden;
+                position: relative;
+                color:white;
+                
+            }
+            .btn i
+            {
+                font-size: 26px;
+                line-height: 50px;
+                transition: 0.2s linear;
+                
+            }
+            .btn:hover i
+            {
+                transform: scale(1.5);
+                color:white;
+            }
+            .btn::before
+            {
+                content: "";
+                position: absolute;
+                width: 120%;
+                height: 120%;
+                background-color: darkcyan;
+                transform: rotate(45deg);
+                left:-110%;
+                top: 90%;
+                
+                
+            }
+            .btn:hover::before{
+                animation: aaa .7s 1;
+                top: -10%;
+                left: -10%;
+                
+            }
+            @keyframes aaa
+            {
+                0%{ left:-10%;
+                top: 90%;
+                    
+                }
+                50%{
+                    left:10%;
+                    top: -30%;
+                }
+                100%
+                {
+                    top: -10%;
+                    left:-10%;
+                }
+            }
+            
+     </style>
+
+        
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    </head>
+    <body style="background-color: whitesmoke;">
+    <div class="mainmenu1">
+    
+    <ul >
+    <li><a href="" ><i class="fa fa-mobile blinking " aria-hidden="true"></i> &nbsp;&nbsp;+91 11 23415601 </a></li>
+    
+    
+    &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp    &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp    &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp 
+
+    <li><a href=""><i class="fa fa-envelope blinking" aria-hidden="true"></i>&nbsp;glatourandtravels@gmail.com</a></li>
+    
+    </div>
+    
+    <div class="mainmenu">
+    
+    <p style="font-family: cursive;font-size: 20px;position: absolute; top: 35px;left:10px;color: white;"><img  src="logo1.png"   style="float: left; width: 80px;height: 50px;"> </p>
+    <p class="image" style="font-family:cursive;font-size: 25px;position: absolute; top:45px;left:100px;color: yellow;line-height: normal;">GLA Tours &amp Travels</p>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <ul >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <li><a href="index.html#A"><i class="fa fa-handshake-o " aria-hidden="true"></i>&nbsp;Tours in India</a></li>
+    <li><a href="index.html#B"><i class="fa fa-plane" aria-hidden="true"></i>&nbsp;International Tours</a></li>
+    <li><a href=""><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Destinations</a></li>
+    <li><a href="transport.html"><i class="fa fa-car" aria-hidden="true"></i>&nbsp;Transport</a></li>
+    <li><a href=""><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;Support</a></li>
+    <li><a href="aboutus.html"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;About Us</a></li>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </ul>
+       
+        </div>
+      
+        </div>
+    
+    <div class="mainmenu2">
+    
+    <img src="support.jpg" width="1349" height="470">
+    
+        <div class="hye"> <pre style="font-family: cursive;font-size: 100px;width: 100%;"> SUPPORT</pre></div>
+        
+    </div>
+    
+    
+    
+    <div class="mainmenu3">
+    
+    <h1 style="margin-left: 70px;font-family: cursive;font-size: 40px;">CONTACT US</h1>
+    
+   
+    
+        <pre style="margin-left: 70px;font-family: cursive;font-size: 60px;" ><b>Working Hours - (10:00 AM – 7:00 PM. Monday – Saturday)</b></pre>
+        
+        <pre style="margin-left: 70px;font-family: cursive;font-size: 20px;" ><b>Telephone:</b> <i>+911123415601</i></pre>
+        
+        <pre style="margin-left: 70px;font-family: cursive;font-size: 20px;" ><b>Emergency Numbers:</b> <i>+ 91 -9810100293, 9910049132, 7042150002, 7042160002, 9910048582</i></pre>
+        
+        <pre style="margin-left: 70px;font-family: cursive;font-size: 20px;" ><b>Address:</b> <i>Flat No. 6, Shankar Market, 2nd Floor, Above Shop No.1 Shankar Market, Outer Circle, Opposite M Block,Connaught Place, Delhi, 110001, India.</i></pre>
+        <br><br>
+        
+        <h1 style="margin-left: 70px;font-size: 20px;">Director Sales And Marketing</h1>
+        
+        <br>
+        <h2 style="margin-left: 70px;font-family: cursive;font-size: 20px;" ><i>Mr. Gaurav Chawla</i></h2>
+        <pre style="margin-left: 70px;font-family: cursive;font-size: 20px;" ><b>Email:</b> <i>glatourandtravels@gmail.com</i></pre>
+        <pre style="margin-left: 70px;font-family: cursive;font-size: 20px;" ><b>Telephone:</b> <i>+91 11 23415601</i></pre>
+        <pre style="margin-left: 70px;font-family: cursive;font-size: 20px;" ><b>Mobile:</b> <i>+91-9810100293, 9910049132 </i></pre>   
+        
+        
+        </div>
+        
+        <div class="mainmenu4" style="margin-left: 70px;" >
+<br><br>
+<h3>Want Us To Call Back ? Please Fill the Details Below :</h3>
+<form class="webform-client-form webform-client-form-12473" action="/contact-us.php" method="post" id="webform-client-form-1">
+
+<div>
+<br><br>
+    <label for="edit-submitted-name"><b>Name</b> <span  title="This field is required.">*</span></label>
+<br><br>
+<input  required="required" placeholder="Enter Name"  type="text" id="edit-submitted-name" name="submitted[name]" value="" size="60" maxlength="128" />
+</div>
+<br>
+<div >
+    <label for="edit-submitted-mobile"><b>Mobile </b><span  title="This field is required.">*</span></label>
+<br><br>
+<input required="required" placeholder="Enter Mobile Number"  type="text" id="edit-submitted-mobile" name="submitted[mobile]" value="" size="60" maxlength="128" />
+</div>
+<br>
+<div >
+    <label for="edit-submitted-email"><b>Email </b><span  title="This field is required.">*</span></label>
+<br><br>
+<input required="required"  placeholder="Enter Email" type="email" id="edit-submitted-email" name="submitted[email]" size="60" />
+</div>
+<br>
+<div>
+    <label for="edit-submitted-message"><b>Message</b> <span  title="This field is required.">*</span></label>
+<br>
+<br>
+<div ><textarea required="required" placeholder="Write your message"  id="edit-submitted-message" name="submitted[message]" cols="60" rows="5"></textarea>
+</div>
+  <br>
+   
+<div  ><input style="width:500px;height:40px ; background-color: black; color: white;" type="submit" name="op" value="Submit" /></div>
+    </div>
+
+</form>
+            </div>
+            
+            
+<div class="box_style_4">
+<h4 style="text-align: center;">Need <span>Help?</span></h4><br>
+    <p><img style="margin-left:140px;" alt="" src="phone.png" width="70" /> <a class="phone" style="color: black; text-decoration: none;font-size: 30px;margin-left: 40px;" href="tel:+911123415601">&nbsp;&nbsp; &nbsp; &nbsp;<br> <h1>  +91 11 23415601</h1></a><br> <small >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monday to Saturday 10.00am - 7.00pm</small></p>
+</div>
+ <br>
+ <br>
+ 
+  
+        
+   
+   
+    <div class="mainmenu5">
+    
+    <h1 style="margin-left: 70px;font-family: sans-serif;font-size: 40px;">FREQUENTLY ASKED QUESTIONS</h1>
+    
+   
+       
+     <div class="mainmenu6">
+       
+       <p style="text-align: center;margin-top: 20px;font-family: cursive;">Frequently Asked Questions</p>
+       <br>
+       
+       <h3 style="margin-left: 20px;font-family: cursive;" >Question: What is GLA Tours?</h3>
+       <br>
+           <pre style="margin-left: 20px;color:dimgrey;font-family: cursive;"><span style="color:dimgrey;">Answer:</span> GLA Tours is a Travel Agency based out of Cannaught Place, New Delhi India, Established in 1995,<br> Recognized by all Tourism Apex bodies, affiliated with Department of Tourism, Government of India. GLA<br> Tours is an authorized seller of Premium chain hotels such as Taj, Oberois, ITC, Starwood, Hilton, Marriott,<br>Lemon Tree and many more. We cater to all needs of the travelers like 3,4 or 5 Star Hotels, private cabs,<br> Coach travel, English Speaking Drivers , Guides as well as niche demands like Senior Citizen Tours,<br> Women only Tours ,Wildlife Expeditions ,Photography Tours , Customized Honeymoon Tours, etc.</pre>
+           
+         <br>
+       
+       <h3 style="margin-left: 20px;font-family: cursive;" >Question: Why should I trust you? </h3>
+       <br>
+           <pre style="margin-left: 20px;color:dimgrey;font-family: cursive;"><span style="color:dimgrey;">Answer:</span> GLA Tours has been operating since 1995, The guest feedback for GLA Tours is excellent, On<br> securing a tour with us, We provide the guest with a payment flexibility where only a token advance is to be<br> paid to process the reservation, balance payment can be remitted after we provide the confirmations from<br>the hotel / hotels. </pre>
+       
+       
+        <br>
+       
+       <h3 style="margin-left: 20px;font-family: cursive;" >Question:  How much would I pay upfront? </h3>
+       <br>
+           <pre style="margin-left: 20px;color:dimgrey;font-family: cursive;"><span style="color:dimgrey;">Answer:</span> Based on the discussion with your Travel Counselor, you have to pay 10% - 25% of your Total Trip<br> amount to process the reservation. The balance amount can be paid after receiving the Travel vouchers. </pre>
+       
+        <br>
+       
+       <h3 style="margin-left: 20px;font-family: cursive;" >Question: What are the supported modes of payment you accept? </h3>
+       <br>
+           <pre style="margin-left: 20px;color:dimgrey;font-family: cursive;"><span style="color:dimgrey;">Answer:</span>  You can pay via Bank Transfers, Cheques or in cash. We accept all Visa, MasterCard and American<br> Express credit cards and most major debit cards which are subject to 2.5% processing fee. </pre>
+       
+       
+        <br>
+       
+       <h3 style="margin-left: 20px;font-family: cursive;" >Question: What is your cancellation policy? </h3>
+       <br>
+           <pre style="margin-left: 20px;color:dimgrey;font-family: cursive;"><span style="color:dimgrey;">Answer:</span> Since we customize packages as per your demands, the cancellation policy varies across hotels and<br> services. However, you're informed about the detailed cancellation policy before you make any payments</pre>
+           
+            <br>
+       
+       <h3 style="margin-left: 20px;font-family: cursive;" >Question: What if I face any issues during the Tour? </h3>
+       <br>
+           <pre style="margin-left: 20px;color:dimgrey;font-family: cursive;"><span style="color:dimgrey;">Answer:</span> There would be a dedicated Travel Counselor assigned exclusively to you, who would be in touch with<br> you from the time when the query was initiated till the time the tour ends, In case of any issues faced by you,<br> a solution would be immediately offered, still unsatisfied you can escalate the call to our Director, Mr. Gaurav<br> Chawla - Mobile No. 98101-00293. The Hotels, Transport and the services used by us are tried and tested<br> for over 25 years.</pre>
+        </div>
+        
+        
+       </div> 
+       
+       
+       
+        <div class="mainmenu7">
+       
+        <div class="r">
+        
+    
+    <h1 style="margin-left: 70px;font-family: sans-serif;font-size: 40px;">RESERVATION POLICY</h1>
+    
+     
+            </div>
+            
+       
+     <div class="mainmenu8">
+       
+       <p style="text-align: center;margin-top: 20px;font-family: cursive;">Frequently Asked Questions</p>
+       <br>
+       
+       <h3 style="margin-left: 20px;font-family: cursive;" >Question: How do I confirm a reservation?</h3>
+       <br>
+           <pre style="margin-left: 20px;color:dimgrey;font-family: cursive;"><span style="color:dimgrey;">Answer:</span>We will assign one exclusive Travel Counselor to process your reservation , Once the hotels /<br>itinerary and the rates have been finalized , The Counselor would send a Performa invoice listing the<br> amount payable ,reservation details and the package inclusions ,If you are satisfied with the details we will<br> start to process the reservation.</pre>
+           
+         <br>
+       
+       <h3 style="margin-left: 20px;font-family: cursive;" >Question: How much Advance do I pay and when? </h3>
+       <br>
+           <pre style="margin-left: 20px;color:dimgrey;font-family: cursive;"><span style="color:dimgrey;">Answer:</span>We would need 10- 25 % advance payment to process the reservation, after we receive the<br> confirmations and payment time limits from respective hotels, we would inform you on the final payment<br> schedule, which would vary from a hotel to a hotel, Seasonality and the Destination. </pre>
+       
+       
+        <br>
+       
+       <h3 style="margin-left: 20px;font-family: cursive;" >Question:  What is a Confirmation Voucher? </h3>
+       <br>
+           <pre style="margin-left: 20px;color:dimgrey;font-family: cursive;"><span style="color:dimgrey;">Answer:</span> Once the reservation is confirmed and the advance is received. We will send you by email /courier,<br> a confirmation voucher detailing all the details pertaining to the particular reservation. This should be<br> presented to the hotel at the time of check in. </pre>
+       
+        <br>
+       
+       <h3 style="margin-left: 20px;font-family: cursive;" >Question: How do I know if my hotel reservation is confirmed? </h3>
+       <br>
+         <pre style="margin-left: 20px;color:dimgrey;font-family: cursive;"><span style="color:dimgrey;">Answer:</span> The hotel confirmation voucher sent by us would have confirmation number / name of person who<br> confirmed reservation along with the hotel phone number / contact details. You are welcome to check<br> the status of your reservation from the hotel directly.</pre>
+       <br>
+       
+       <h3 style="margin-left: 20px;font-family: cursive;" >Question: Do I need to reconfirm my booking with the hotel directly? </h3>
+       <br>
+           <pre style="margin-left: 20px;color:dimgrey;font-family: cursive;"><span style="color:dimgrey;">Answer:</span> No, a copy of the hotel confirmation voucher issued by us is also sent to the hotel/s.</pre>
+           
+            <br>
+       
+       <h3 style="margin-left: 20px;font-family: cursive;" >Question: How long does it take to get a confirmation? </h3>
+       <br>
+           <pre style="margin-left: 20px;color:dimgrey;font-family: cursive;"><span style="color:dimgrey;">Answer:</span> 24 to 48 hours.</pre>
+        </div>
+        
+         </div>
+ <br>       
+       
+         <br>
+  
+        
+   
+   
+    <div class="mainmenu9">
+    
+    <div class="s">
+    <h1 style="margin-left: 70px;font-family: sans-serif;font-size: 40px;">TERMS &amp; CONDITIONS</h1>
+    </div>
+    
+   
+       
+     <div class="mainmenu10">
+     
+         <h1 >Terms &amp; Conditions</h1>
+         <br>
+         <pre style="font-family: cursive;"> The Website Owner, including subsidiaries and affiliates (“Website” or “Website Owner” or “we” or “us” or “our”) provides the information contained on the website<br> or any of the pages comprising the website (“website”) to visitors (“visitors”) (cumulatively referred to as “you” or “your” hereinafter) subject to the terms and<br> conditions set out in these website terms and conditions, the privacy policy and any other relevant terms and conditions, policies and notices which may be applicable<br> to a specific section or module of the website.
+
+Welcome to our website. If you continue to browse and use this website you are agreeing to comply with and be bound by the following terms and conditions of use,<br> which together with our privacy policy govern GLA Tour's relationship with you in relation to this website.
+
+The term 'GLA Tours' or 'us' or 'we' refers to the owner of the website whose registered office is Flat No 6 ,Shankar Market , Connaught Place , New Delhi -110001 ,<br> India .The term 'you' refers to the user or viewer of our website.
+    
+The use of this website is subject to the following terms of use:
+    
+      </pre>
+      
+      <ol style="list-style-type: disc;">
+          <li style="font-family: cursive;">The content of the pages of this website is for your general information and use only. It is subject to change without notice.</li><br>
+          <li style="font-family: cursive;">Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on this website for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.</li><br>
+          <li style="font-family: cursive;">Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.</li><br>
+          <li style="font-family: cursive;">This website contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.</li><br>
+          <li style="font-family: cursive;">All trade marks reproduced in this website which are not the property of, or licensed to, the operator are acknowledged on the website.</li><br>
+          <li style="font-family: cursive;">Your use of this website and any dispute arising out of such use of the website is subject to the laws of India or other regulatory authority.</li><br>
+          
+      
+         </ol>
+         <br>
+         
+          <h1 >Privacy Policy</h1>
+          <br>
+          <pre style="font-family: cursive;">
+A privacy policy states how you will respect the privacy of your website users. It says what information you will gather, how you will use it and how you will keep it secure.
+
+A privacy policy is a legal document that discloses some or all of the ways a party gathers, uses, discloses and manages a customer's data. The exact contents of a privacy<br> policy will depend upon the applicable law and may need to address the requirements of multiple countries or jurisdictions. While there is no universal guidance for the<br> content of specific privacy policies, a number of organizations provide example forms.
+
+GLA Tours  is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this<br> website, and then you can be assured that it will only be used in accordance with this privacy statement.
+
+GLA Tours may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes.<br> This policy is effective from 01st January 2017.  
+          </pre>
+         <br>
+         <h1 >Security</h1>
+         
+         <br>
+         <pre style="font-family: cursive;">We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure we have put in place suitable physical, electronic<br> and managerial procedures to safeguard and secure the information we collect online.
+             
+         </pre>
+         
+         <h4>How we use cookies</h4>
+         <br>
+         <pre style="font-family: cursive;">A cookie is a small file which asks permission to be placed on your computer's hard drive. Once you agree, the file is added and the cookie helps analyses web traffic or<br> lets you know when you visit a particular site. Cookies allow web applications to respond to you as an individual. The web application can tailor its operations to your needs,<br> likes and dislikes by gathering and remembering information about your preferences.
+
+We use traffic log cookies to identify which pages are being used. This helps us analyses data about webpage traffic and improve our website in order to tailor it to<br> customer needs. We only use this information for statistical analysis purposes and then the data is removed from the system.
+
+Overall, cookies help us provide you with a better website, by enabling us to monitor which pages you find useful and which you do not. A cookie in no way gives us access to<br> your computer or any information about you, other than the data you choose to share with us.
+
+You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you<br> prefer. This may prevent you from taking full advantage of the website.</pre>
+       
+       <br>
+        
+        <h4>Controlling your personal information</h4>
+        <br>
+         <pre style="font-family: cursive;">We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal<br> information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen.</pre>
+         
+         <br>
+         
+          <h1 >BO Clause</h1>
+         
+         <br>
+         <pre style="font-family: cursive;">We as a merchant shall be under no liability whatsoever in respect of any loss or damage arising directly or indirectly out of the decline of authorization for any<br> Transaction, on Account of the Cardholder having exceeded the preset limit mutually agreed by us with our acquiring bank from time to time.
+             
+         </pre>
+         
+         
+     </div> 
+        </div>
+       
+       <br> 
+       <br>
+       
+       
+        <div class="mainmenu11">
+       
+        <div class="t">
+        
+    
+    <h1 style="margin-left: 70px;font-family: sans-serif;font-size: 40px;">LOWEST RATES CHALLENGE</h1>
+    
+     
+            </div>
+            
+       
+     <div class="mainmenu12">
+       
+       <p style="text-align: center;margin-top: 20px;font-family: cursive;">Lowest Rates Challenge</p>
+       <br>
+       
+       <pre style="font-family: cursive;">  The travel websites such as Make My Trip, Yatra, GoIbibo, Booking.com, Hotels.com, Travelocity, Expedia,<br>  Priceline and others charge between 22 and 25%. Margins from the hotels and service providers to promote<br>  them on their online portals,
+
+  The direct consumer or the traveler doesn't get that much of a bargain. A contract between a hotel and and<br>  online travel agency provides for 'rate parity': each Travel Portal wants an assurance from the hotel or a<br>  resort that the rate / package provided to it is the lowest publicly available rate, and the contract between<br>  the portals and the hotels has a clause of stiff penalties to the hotel if a lower rate is found elsewhere.
+
+  The online travel portals offer some version of a 'Best Internet Rate Guarantee', and hold their hotels' to it.<br>  Since the 'lowest publicly available rate' or "Best Internet Rate' can only be one number, and that number can't<br>  be any lower and still be either the 'lowest publicly available rate' or Best Internet Rate'; what the traveler<br>  pays on any of these websites is going to be very close to the hotel's 'Best Available Rate', or the hotels'<br>  rack rate.
+
+  Moving along there are more aggressive travel portals, the deep discount, 'opaque' sites, such as Hotwire.com<br>  and the Priceline with 'name your own price' gimmicks. You 'name your price' on Priceline, or pick one of several<br>  lowball prices posted on Hotwire, and they pick the hotel for you: they make a reservation for you at the hotel<br>  whose rooms they are selling at that price. You don't know which hotel which you'll be staying at until<br>  your reservation is confirmed, which is really not an acceptable condition to any traveler.
+          
+  Considering the above, we can proudly boast that Swan Tours offers world class services at the lowest<br>  prices.
+           
+           
+       </pre>
+       
+        </div>
+        
+         </div>
+         
+         
+    <div style="width: 100%;
+                        height:530px;background-color: black;position: absolute;top:6100px">
+                <div style="border: 1px; solid black;height: 380px;width: 400px;margin-left: 140px;background-color: black;">
+        <p style="margin-left: 20px;color: white;font-size: 18px;"><br><br><b>Need Help ?</b>
+                    <br><br>
+                    <b>Working Hours:</b>(10:00 AM – 7:00 PM. Monday – Saturday)<br><br><b>Telephone:</b> +91 11 23415601
+                    <br><br><b>Emergency Numbers:</b>  + 91 - 9810100293, 9910049132, 7042150002, 7042160002, 9910048582 <br><br><b>Address:</b> Flat No. 6, Shankar Market, 2nd Floor, Above Shop No.1 Shankar Market, Outer Circle, Opposite M Block, Connaught Place, Delhi, 110001, India.
+                    </p>
+        </div>
+               <div style="height: 380px;width: 400px;margin-left: 640px;background-color:black;position: absolute;top: 10px;">
+                    <p style="margin-left: 20px;line-height: 1.6; color: white;font-size: 18px;"><br><b>Our Services</b><br><br>Tour Photography<br>Premium Hotel Stays<br>First Class Travel Tickets<br>River Rafting<br>ParaGliding<br>Cabs Services<br>Best Packages<br></div>
+                <img src="travel.jpg" style="position: absolute;width: 500px; top: 50px;left: 840px;">
+                <h2 style="text-decoration: underline;width: 600px;text-align: center;color: dimgrey;margin-left: 120px;">        _______________________________________________________________________________________________________________</h2>
+                </div>
+         <div class="center">
+            <a class="btn" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="btn" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a class="btn" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="btn" href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+            <a class="btn" href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+             <br>
+             <p style="color: white;font-size: 16px"><i class="fa fa-copyright" aria-hidden="true"></i>
+             2019 GLAToursAndTravels Pvt. Ltd. All Rights Reserved | Powered by GLA University</p>
+            </div>
+       
+       
+        
+       
+    </body>
+    </html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title></title>
+        
+        <style>
+
+            
+             
+            *{
+                padding: 0px;
+                margin: 0px;
+                font-family:sans-serif;
+                font-size:16px;
+            
+            }
+           
+            body
+            {
+                
+                
+                background-size: cover;
+                box-sizing: border-box;
+                 }
+            
+            
+            
+            .mainmenu1
+                 {
+                    background-color:black;
+                    background-repeat: no-repeat;
+                    
+                 }
+                  .mainmenu1 ul
+                 {
+                    list-style: none;
+                    display: inline-flex;
+                 }
+                  .mainmenu1 ul li
+                 {
+                   width:130 px;
+                   padding:5px;
+                   margin: 3px;
+                     float:right;
+                 }
+                 .mainmenu1 ul li
+                 a{
+                   text-decoration: none;
+                   color:white;
+                 }
+            
+                 .mainmenu
+                 {
+                    background-color:darkred;
+                    background-repeat: no-repeat;
+                     line-height: 8px;
+                    
+                   
+                 }
+                   .mainmenu ul  li a:hover {
+                      
+                    
+                       color:yellow;
+                    
+                    }
+            
+                  .mainmenu ul
+                 {
+                    list-style: none;
+                    display: inline-flex;
+                 }
+                  .mainmenu ul li
+                 {
+                   width:130 px;
+                   padding:10px;
+                   margin: 13px;
+                 }
+                 .mainmenu ul li
+                 a{
+                   text-decoration: none;
+                   color:white;
+                 }
+                    
+          .mainmenu2 img
+            {
+                display:visible;
+            }
+            .hye
+            {
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                 transform: translate(-50%, -50%);
+            }
+            .mainmenu2
+            {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+             .fa-angle-right{
+
+                float:right;
+
+                margin-top: auto;
+
+            }
+
+            * {
+                 box-sizing: border-box;
+                 }
+            
+            .blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: white;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: white;    }
+}
+         
+    #customers td, #customers th {
+  border: 1px solid grey;
+  padding: 8px;
+            }
+             .image {
+        overflow: hidden;
+        transition-duration: 3s;
+        transition-property: transform;
+    }
+    .image:hover {
+        transform: rotate(360deg);
+    }
+            
+            
+            td,th{
+                color: black;
+            }
+            
+             .center
+            {
+                position: absolute;
+                left: 50%;
+                top:2150px;
+                width: 100%;
+                
+                transform: translate(-50%,-50%);
+                text-align: center;
+            }
+            .btn
+            {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                background-color: darkcyan;
+                margin: 10px;
+                border-radius: 30%;
+                box-shadow: 0 5px 15px -5px #679cdb;
+                overflow: hidden;
+                position: relative;
+                color:white;
+                
+            }
+            .btn i
+            {
+                font-size: 26px;
+                line-height: 50px;
+                transition: 0.2s linear;
+                
+            }
+            .btn:hover i
+            {
+                transform: scale(1.5);
+                color:white;
+            }
+            .btn::before
+            {
+                content: "";
+                position: absolute;
+                width: 120%;
+                height: 120%;
+                background-color: darkcyan;
+                transform: rotate(45deg);
+                left:-110%;
+                top: 90%;
+                
+                
+            }
+            .btn:hover::before{
+                animation: aaa .7s 1;
+                top: -10%;
+                left: -10%;
+                
+            }
+            @keyframes aaa
+            {
+                0%{ left:-10%;
+                top: 90%;
+                    
+                }
+                50%{
+                    left:10%;
+                    top: -30%;
+                }
+                100%
+                {
+                    top: -10%;
+                    left:-10%;
+                }
+            }
+     </style>
+
+        
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    </head>
+    <body style="background-color: white;">
+    <div class="mainmenu1">
+    
+    <ul >
+    <li><a href="" ><i class="fa fa-mobile blinking " aria-hidden="true"></i> &nbsp;&nbsp;+91 11 23415601 </a></li>
+    
+    
+    &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp    &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp    &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp 
+
+    <li><a href=""><i class="fa fa-envelope blinking" aria-hidden="true"></i>&nbsp;glatourandtravels@gmail.com</a></li>
+    
+    </div>
+    
+    <div class="mainmenu">
+    
+    <p style="font-family: cursive;font-size: 20px;position: absolute; top: 35px;left:10px;color: white;"><img  src="logo1.png"   style="float: left; width: 80px;height: 50px;"> </p>
+    <p class="image" style="font-family:cursive;font-size: 25px;position: absolute; top:45px;left:100px;color: yellow;line-height: normal;">GLA Tours &amp Travels</p>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <ul >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <li><a href=""><i class="fa fa-handshake-o " aria-hidden="true"></i>&nbsp;Tours in India</a></li>
+    <li><a href=""><i class="fa fa-plane" aria-hidden="true"></i>&nbsp;International Tours</a></li>
+    <li><a href=""><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Destinations</a></li>
+    <li><a href=""><i class="fa fa-car" aria-hidden="true"></i>&nbsp;Transport</a></li>
+    <li><a href=""><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;Support</a></li>
+    <li><a href=""><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;About Us</a></li>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </ul>
+       
+        </div>
+      
+        </div>
+    
+    <div class="mainmenu2">
+    
+    <img src="h6.jpg" width="1350" height="470">
+    
+        <div class="hye"> <pre style="font-family: cursive;font-size: 50px;"> HIMACHAL PRADESH TOUR PACKAGES</pre></div>
+        
+    </div>
+    
+    <div class="bye">
+        <pre style="color: black;font-size: 23px;background-color: white;text-align:center;font-family: cursive;"> HOLIDAYS IN HIMACHAL PRADESH</pre>
+       
+        </div>
+        <hr>
+        <div style="height: 400px;">
+        <br>
+        
+        <pre style="color: black;font-size: 20px;background-color: white;text-align:center;font-family: cursive;"> Himachal Pradesh: Land of the gods. Popularly known as the Dev Bhumi- "Land of the Gods", Himachal Pradesh is a gorgeous hill<br> state in northern India nestled in western Himalayas. The state is landlocked<br>with the Tibetan plateau to the east, Jammu and also Kashmir to the north, and also <br>Punjab to the west.Himachal Pradesh is a northern Indian state in the Himalayas. It's home to scenic mountain towns and<br> resorts such as Dalhousie.Host to the Dalai Lama, Himachal Pradesh has a strong Tibetan<br> presence. 
+        </pre>
+       
+        </div>
+    <br><br>
+    <div class="row" style="background-color: orangered;">
+  
+    <img src="h1.jpg" alt="Snow" style="position: absolute;top: 822px;left: 30px;width: 430px;height: 240px;">
+  
+  
+    <img src="h2.jpg" alt="Forest" style="position: absolute;top: 822px;left: 470px;width: 430px;height: 240px;">
+  
+  
+    <img src="h3.jpg" alt="Mountains" style="position: absolute;top: 822px;left: 910px;width: 430px;height: 240px;">
+  
+
+    <img src="h4.png" alt="Snow" style="position: absolute;top: 1072px;left: 30px;width: 430px;height: 240px;">
+
+
+    <img src="h5.jpg" alt="Snow" style="position: absolute;top: 1072px;left: 470px;width: 430px;height: 240px;">
+    
+    <img src="Best-Tourist-Places-in-Himachal-Pradesh.jpg" alt="Snow" style="position: absolute;top: 1072px;left: 910px;width: 430px;height: 240px;">
+
+  
+
+        </div>
+
+    <br>
+    
+            <div id="customers" style="margin-left: 400px;">
+    <table style="margin-top: 320px;">
+    <caption style="font-size: 30px;font-family: fantasy;color: black;">Popular Tour Packages to Himachal</caption>
+     <tr>
+    <th>Best Himachal Tour Itinerary</th>
+    <th>No. of Days</th>
+    <th>Price*</th>
+  </tr>
+  
+  <tr>
+    <td>Best of Himachal Tour Packages</td>
+    <td>05 Nights / 06 Days</td>
+    <td>Rs. 14,500</td>
+  </tr>
+  <tr>
+    <td>Manali Tour Packages</td>
+    <td>09 Nights / 10 Days</td>
+    <td>Rs. 30,199</td>
+  </tr>
+  <tr>
+    <td>Wildlife Tour Packages to Himachal</td>
+    <td>10 Nights / 11 Days	</td>
+    <td>Rs. 45, 999</td>
+  </tr>
+  <tr>
+    <td>Shimla Manali Honeymoon Packages</td>
+    <td>9 Nights / 10 Days</td>
+    <td>Rs. 43, 500</td>
+  </tr>
+    
+        </table>
+    
+    </div>
+         
+         
+         <div style="width: 100%;
+                        height:530px;background-color: black;position: absolute;top:1700px">
+                <div style="border: 1px; solid black;height: 380px;width: 400px;margin-left: 140px;background-color: black;">
+        <p style="margin-left: 20px;color: white;font-size: 18px;"><br><br><b>Need Help ?</b>
+                    <br><br>
+                    <b>Working Hours:</b>(10:00 AM – 7:00 PM. Monday – Saturday)<br><br><b>Telephone:</b> +91 11 23415601
+                    <br><br><b>Emergency Numbers:</b>  + 91 - 9810100293, 9910049132, 7042150002, 7042160002, 9910048582 <br><br><b>Address:</b> Flat No. 6, Shankar Market, 2nd Floor, Above Shop No.1 Shankar Market, Outer Circle, Opposite M Block, Connaught Place, Delhi, 110001, India.
+                    </p>
+        </div>
+               <div style="height: 380px;width: 400px;margin-left: 640px;background-color:black;position: absolute;top: 10px;">
+                    <p style="margin-left: 20px;line-height: 1.6; color: white;font-size: 18px;"><br><b>Our Services</b><br><br>Tour Photography<br>Premium Hotel Stays<br>First Class Travel Tickets<br>River Rafting<br>ParaGliding<br>Cabs Services<br>Best Packages<br></div>
+                <img src="travel.jpg" style="position: absolute;width: 500px; top: 50px;left: 840px;">
+                <h2 style="text-decoration: underline;width: 600px;text-align: center;color: dimgrey;margin-left: 120px;">        _______________________________________________________________________________________________________________</h2>
+                </div>
+         <div class="center">
+            <a class="btn" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="btn" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a class="btn" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="btn" href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+            <a class="btn" href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+             <br>
+             <p style="color: white;font-size: 16px"><i class="fa fa-copyright" aria-hidden="true"></i>
+             2019 GLAToursAndTravels Pvt. Ltd. All Rights Reserved | Powered by GLA University</p>
+            </div>
+       
+
+         
+        
+    
+
+    </body>
+    </html>
